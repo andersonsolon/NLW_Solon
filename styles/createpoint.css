@@ -67,7 +67,8 @@ form input, form select{
   padding: 16px 24px;
   font-size: 16px;
   border-radius: 8px;
-}
+  outline: none;
+  }
 
 form select{
   -webkit-appearance: none;
@@ -82,4 +83,20 @@ form label{
 
 form .field-group .field + .field{
   margin-left: 24px;
+}
+
+form button{
+  height: 56px;
+  width: 260px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 400ms;
+}
+
+form button:hover{
+  background-color: #2fb86e;
 }

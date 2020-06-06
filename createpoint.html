@@ -16,7 +16,7 @@
     
       <header>
         <img src="../assets/logo.svg" alt="Logomarca">
-        <a href="#">
+        <a href="/index.html">
           <span></span>
           Voltar para Home
         </a> 
@@ -52,6 +52,7 @@
               <select name="uf">
                 <option value="">Selecione o Estado</option>
               </select>
+              <input type="hidden" name="state">
             </div>
             <div class="field">
               <label for="city">Cidade</label>
@@ -62,11 +63,11 @@
           </div>
         </fildset>
         
-
         <button type="submit">Cadastrar ponto de coleta</button>
       
        </form>
           
   </div>
+  <script src="/scripts/createpoint.js"></script>
 </body>
 </html>
