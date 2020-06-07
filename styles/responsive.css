@@ -28,3 +28,35 @@
     background-position-y: 200px;
   }
 }
+
+/*createpoint*/
+@media (max-width: 900px){
+  #page-createpoint {
+    background-position-x: 70vw;
+  }
+  #page-createpoint .content{
+    align-items: center;
+    text-align: center;
+  }
+  #page-createpoint .header a{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #page-createpoint main{
+    align-items: center;
+  }
+}
+
+@media (min-width: 1700px){
+  #page-createpoint {
+    background-position-x: 40vw;
+  }
+}
+
+@media (max-height:760px){
+  #page-createpoint {
+    background-position-y: 200px;
+  }
+}
